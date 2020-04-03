@@ -1,0 +1,117 @@
+.validation-message {
+    font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+  color: #ff0057;
+  font-size: 16px;
+  text-align: left !important;
+  padding-left: 10px;
+}
+
+.disabled {
+    opacity: 0.2;
+    cursor: not-allowed;
+    background-color: #72c01d !important;
+}
+
+.form-select {
+    border-radius: 5px;
+    border: solid 1px #707070;
+    background-color: #ffffff;
+    height: 60px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.72;
+    letter-spacing: 0.59px;
+    text-align: left;
+    color: #000000;
+    opacity: 1;
+}
+
+.form-element {
+    border-radius: 5px;
+    border: solid 1px #707070;
+    background-color: #ffffff;
+    height: 60px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.72;
+    letter-spacing: 0.59px;
+    text-align: left;
+    color: #000000;
+    opacity: 1;
+}
+
+.form-element::placeholder {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.72;
+    letter-spacing: 0.59px;
+    text-align: left;
+    opacity: .5;
+    color: #000000;
+}
+
+
+.form-title, .form-title-strong {
+    opacity: 0.8;
+    font-family: Raleway;
+    font-size: 25px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.24;
+    letter-spacing: 0.81px;
+    text-align: center;
+    color: #000000;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.discount-price-value {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0.58px;
+}
+
+.form-title-strong {
+    font-weight: 600;
+}
+
+
+.discount-price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.discount-price-text, .discount-price-value {
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: 0.38px;
+    text-align: center;
+    color: #000000; 
+}
